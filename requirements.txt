@@ -1,0 +1,3 @@
+# Install the local project and its app dependencies from pyproject.toml.
+-e .
+pandas

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "government-match",
+    "title": "Matching government customer",
+    "pdf": "output/pdf/01-government-match.pdf",
+    "intake": {
+      "customer_name": "Fictional Harbour Research Department",
+      "description": "The contracting customer is a fictional government department requesting a services agreement.",
+      "customer_segment": "Government",
+      "handling_approach": "Unknown",
+      "digital_eligibility": "Unknown"
+    },
+    "expected_status": "Allocated",
+    "expected_group": "Government"
+  },
+  {
+    "id": "segment-conflict",
+    "title": "Customer segment conflict",
+    "pdf": "output/pdf/02-segment-conflict.pdf",
+    "intake": {
+      "customer_name": "Fictional Cedar Research Department",
+      "description": "The contracting customer is a fictional government department requesting a services agreement.",
+      "customer_segment": "Medium Business",
+      "handling_approach": "Unknown",
+      "digital_eligibility": "Unknown"
+    },
+    "expected_status": "Clarification needed",
+    "expected_group": null
+  },
+  {
+    "id": "missing-eligibility",
+    "title": "Digital eligibility is unknown",
+    "pdf": "output/pdf/03-missing-eligibility.pdf",
+    "intake": {
+      "customer_name": "Fictional Acorn Services Pty Ltd",
+      "description": "The contracting customer requests a services agreement. Digital eligibility has not been provided.",
+      "customer_segment": "Medium Business",
+      "handling_approach": "Standard/Digital-eligible",
+      "digital_eligibility": "Unknown"
+    },
+    "expected_status": "Clarification needed",
+    "expected_group": null
+  }
+]

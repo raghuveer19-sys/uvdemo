@@ -20,3 +20,15 @@ venv/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Local demo data and Streamlit secrets
+data/
+*.sqlite3
+*.sqlite3-*
+.streamlit/secrets.toml
+
+# Local PDF render previews
+tmp/pdfs/
+
+# Generated workshop reports are shared separately from the codebase
+output/documents/
